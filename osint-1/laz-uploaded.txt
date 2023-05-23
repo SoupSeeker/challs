@@ -1,0 +1,5 @@
+Ronin
+
+Hidden Cobra strikes again, what is the hash of the transaction that drained Ronin bridge of 25 million usdc?
+
+0xed2c72ef1a552ddaec6dd1f5cddf0b59a8f37f82bdda5257d9c7c37db7bb9b08

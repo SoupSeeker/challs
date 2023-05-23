@@ -1,0 +1,6 @@
+Hint: RGB 1
+
+Inside the monkey picture is a secret PDF hidden by altering the LSB of color channels R, G, and B on bit 1, you can get the PDF from cyberchef's extract LSB recipe.
+Opening the PDF prompts a password, so you need to check the strings output and notice the B64 encoded string which is the PDF password
+
+pdf password is my_secret_monkey_password_2023

@@ -1,0 +1,12 @@
+CSUSM{theres_no_power_in_this_shell}
+
+the user needs to analyze the file structure for anomalies, most files are empty but some are not :)
+
+user needs to check the following directory for powershell command history, and notice this line:
+
+[Text.Encoding]::ASCII.GetString([Text.Encoding]::ASCII.GetBytes([System.Text.Encoding]::ASCII.GetBytes("DTRTJ|sobubtXihXwhpbuXniXsontXtobkkz") -BXOR [System.Text.Encoding]::ASCII.GetBytes("0x07")))
+
+which is doing an XOR on the string "DTRTJ|sobubtXihXwhpbuXniXsontXtobkkz" with 0x07
+
+Infected_PC/Users/developer/AppData/Roaming/Microsoft/Windows/PowerShell/PSReadLine/ConsoleHost_history.txt
+

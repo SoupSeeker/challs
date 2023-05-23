@@ -1,0 +1,9 @@
+This modulus is kind of small, don't you think? Can you recover p and q for us?
+
+N = 72765772368817695178606334508905196490541650711232968016527415489269402792003
+
+--
+p =  336744220197018446245147578256717904467
+q =  216086180562341149104698727511466595409
+
+users can either write a python script or use rsacalculator / factoring website to gather the variables

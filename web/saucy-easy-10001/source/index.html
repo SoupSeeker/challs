@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>My Favourite Pasta Sauce</title>
+        <style>
+            body {
+                background-color: black;
+                color: white
+            }
+            .main-body {
+                margin: auto;
+                text-align: center;
+            }
+        </style>
+        <script src="disableMouseRightClick.js"></script>
+    </head>
+
+    <body>
+        <script>
+            document.onkeydown = function(e) {
+                if (e.ctrlKey && 
+                    (e.keyCode === 67 || 
+                    e.keyCode === 86 || 
+                    e.keyCode === 85 || 
+                    e.keyCode === 117)) {
+                        alert('not allowed');
+                    return false;
+                } else {
+                    return true;
+                }
+            };
+        </script>
+
+        <div class="main-body">
+            <h1>Is sauce a form of soup???</h1>
+            <p>I'm not so sure, but I do love my sauce. </p>
+            <!-- almost there -->
+            <img src="./sauce.jpg" >
+        </div>
+    </body>
+</html>

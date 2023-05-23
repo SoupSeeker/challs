@@ -1,0 +1,13 @@
+{
+  "name": "roboscammer",
+  "version": "1.0.0",
+  "description": "web challenge cougars ctf 2023",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0"
+  }
+}

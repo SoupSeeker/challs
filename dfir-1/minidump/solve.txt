@@ -1,0 +1,3 @@
+CSUSM{UNEXPECTED_KERNEL_MODE_TRAP_M}
+
+Use winDbg to analyze the DMP file, run !analyze -v and give the error that caused the BSOD.

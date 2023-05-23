@@ -1,0 +1,17 @@
+the date is spoofed and incorrect, we need to extract the epoch from the multipart boundary
+
+Content-Type: multipart/alternative; boundary="000000000000db4a9105f6dd62fa"
+
+000000000000db4a9105f6dd62fa
+000... db4a91 05f6dd62 fa  <--- append 'db4a91' to '05f6dd62'
+
+05f6dd62db4a91 <--- convert this to hexadecimal
+
+1678805590297233 <--- treat the first 13 digits like epoch date
+
+1678805590297 --> Tuesday, March 14, 2023 2:53:10.297 PM
+
+flag format is CSUSM{MM/DD/YYYY-HH:MM:SS} in UTC (or GMT) time
+
+flag: CSUSM{03/14/2023-02:53:10}
+
